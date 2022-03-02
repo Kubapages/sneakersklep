@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sneaker-sklep</title>
+<link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<a href="https://kubapages.github.io/sneakersy/"><img  src="logo.png" class="logo"></a>
+			<nav>
+			<ul>
+			<li><a href="https://kubapages.github.io/sneakersy/">Strona główna</a></li>
+			<li><a href="formularz.html">Dostępne modele</a></li>
+			<li><a href="">Koszyk</a></li>
+			<li><a href="">Twoje konto</a></li>
+			</ul>
+			</nav>
+			<img src="house-icon.jpg" class="menu-icon">
+		</div>
+		
+		<div class="row">
+			<div class="col-1">
+			<h2>Sneakersy!</h2>
+			<h3>Sneaker-sklep.pl</h3>
+			<h4>Największy wybór!</h4><br>
+			<a href="modele.html"><button type="button">Odwiedź sklep</button></a>
+			
+			</div>
+			<div class="col-2">
+			<img src="ajmain.png" class="but">	
+			<div class="color-box"></div>
+		<h2>
+			</div>
+		</div>
+		
+		<div class="social">
+		<a target="_blank" href="https://pl-pl.facebook.com/"><img src="fb.png"></a>
+		<a target="_blank" href="https://www.instagram.com/"><img src="ig.png"></a>
+		<a target="_blank" href="https://twitter.com/explore"><img src="tw.png"></a>
+		</div>
+		
+	</div>
+</body>
+</html>
+
+

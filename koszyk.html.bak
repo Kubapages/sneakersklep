@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sneaker-sklep</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<!---------guziki nawigacji----------->
+	<div class="container">
+		<div class="navbar">
+			<img src="logo.png" class="logo">
+			<nav>
+			<ul>
+			<li><a href="https://kubapages.github.io/sneakersy/">Strona główna</a></li>
+			<li><a href="modele.html">Dostępne modele</a></li>
+			<li><a href="koszyk.html">Koszyk</a></li>
+			<li><a href="formularz.html">Twoje konto</a></li>
+			</ul>
+			</nav>
+			<img src="house-icon.jpg" class="menu-icon">
+		</div>
+		
+		
+		
+<!-------------------------------koszyk----------------------->		
+		
+	<div class="small-container cart-page">
+	
+	<table>
+	<tr>
+	<th>Produkt</th>
+	<th>Ilość</th>
+	<th>Podsumowanie</th>
+	</tr>
+	
+	<tr>
+	<td>
+	<div class="cart-info">
+	<img src="high3.jpg">
+
+	
+	<div>
+	<p>Aj 1 High "Travis Scoot"</p>
+	<small>Cena: 7500zł</small>
+	<br>
+	<a href="">Usuń</a>
+	</div>
+	</div>
+	
+	</td>
+	<td><input type="number" value="1"></td>
+	<td>7500zł</td>
+	</tr>
+	
+	
+	
+	<tr>
+	<td>
+	<div class="cart-info">
+	<img src="low1.jpg">
+
+	
+	<div>
+	<p>Aj 1 Low "Multicolor"</p>
+	<small>Cena: 550zł</small>
+	<br>
+	<a href="">Usuń</a>
+	</div>
+	</div>
+	
+	</td>
+	<td><input type="number" value="1"></td>
+	<td>7500zł</td>
+	</tr>
+	
+	
+	<tr>
+	<td>
+	<div class="cart-info">
+	<img src="high4.jpg">
+
+	
+	<div>
+	<p>Aj 1 High "Root"</p>
+	<small>Cena: 2500zł</small>
+	<br>
+	<a href="">Usuń</a>
+	</div>
+	</div>
+	
+	</td>
+	<td><input type="number" value="1"></td>
+	<td>2500zł</td>
+	</tr>
+	
+	
+	</table>
+	
+	
+	
+	
+	</div>
+	
+	
+	
+<!--------------------------------stopka----------------------->
+	
+<div class="footer">
+	<div class="container1">
+		<div class="row1">
+			<div class="footer-col-1">
+				<h3>Pobierz naszą aplikacje</h3>
+				<p>Znajdziesz ją w AppStore i Google Play!</p>
+				<div class="app-logo">
+				<img src="play-store.png">
+				<img src="app-store.png">
+				
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="white.png">
+				<p>Naszym celem jest czerpanie przyjemności
+				i korzyści ze snekersów.</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Przydatne linki:</h3>
+				<ul>
+					<li>Strona główna</li>
+					<li>Dostępne modele</li>
+					<li>Koszyk</li>
+					<li>Twoje konto</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Nasze Sociale:</h3>
+				<ul>
+					<li><a href="https://www.facebook.com/" target="blank">Facebook</a></li>
+					<a href="https://www.instagram.com/" target="blank"><li>Instagram</li></a>
+					<a href="https://www.twitter.com/" target="blank"><li>Twitter</li></a>
+					<a href="https://www.youtube.com/" target="blank"><li>YouTube</li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+</body>
+</html>

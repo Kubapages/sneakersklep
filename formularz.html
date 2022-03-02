@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sneaker-sklep</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<!---------guziki nawigacji----------->
+	<div class="container">
+		<div class="navbar">
+			<img src="logo.png" class="logo">
+			<nav>
+			<ul>
+			<li><a href="index.html">Strona główna</a></li>
+			<li><a href="modele.html">Dostępne modele</a></li>
+			<li><a href="basket.html">Koszyk</a></li>
+			<li><a href="formularz.html">Twoje konto</a></li>
+			</ul>
+			</nav>
+			<img src="house-icon.jpg" class="menu-icon">
+		</div>
+		
+		
+	<!-------------logowanie------------------------>
+	
+	<div class="account-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-2">
+				<img src="prawo.png" width="100%">
+	
+				</div>
+				<div class="col-2">
+					<div class="form-container">
+						<div class="form-btn">
+							<span onclick="login()">Zaloguj</span>
+							<span onclick="register()">Zarejestruj</span>
+							
+						</div>
+						<form id="LoginForm">
+						<input type="text" placeholder="Login" id="login" onfocusout="sprawdz1()">
+						<p style="color:red;" id="pole1"></p>
+						<input type="password" placeholder="Hasło" id="haslo">
+						<button type="submit" class="bnt1">Zaloguj</button></br>
+						
+						<a href="">Przypomnij hasło</a>
+						
+						</form>
+						
+						<form id="RegisterForm">
+						<input type="text" placeholder="Login" id="login2" onfocusout="sprawdz2()">
+						<p style="color:red;" id="pole2"></p>
+						<input type="email" placeholder="E-mail" id="email" onfocusout="validateemail(email)">
+						<p style="color:red;" id="pole3"></p>
+						<input type="password" placeholder="Hasło">
+						<button type="submit" class="bnt1">Zarejestruj</button>
+						
+						
+						</form>
+					
+					
+					
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+		
+		
+		
+		
+		<script>
+		function sprawdz1(){
+		var imie=document.getElementById("login").value;
+		if(imie=="") document.getElementById("pole1").innerHTML="Podaj login";
+		else document.getElementById("pole1").innerHTML="";
+		}
+		
+		function sprawdz2(){
+		var login2=document.getElementById("login2").value;
+		if(login2=="") document.getElementById("pole2").innerHTML="Podaj login";
+		else document.getElementById("pole2").innerHTML="";
+		}
+		
+		function sprawdz3() {
+	var email=document.getElementById("emial").value;
+    var reg = '/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/';
+    if(!reg.test(email)) document.getElementById("pole3").innerHTML="Podaj poprawny email";  
+    else
+       document.getElementById("pole3").innerHTML="";
+}
+		
+		</script>
+		
+		
+		
+		
+		
+		
+		
+		
+<!--------------------------------stopka----------------------->
+	
+<div class="footer">
+	<div class="container1">
+		<div class="row1">
+			<div class="footer-col-1">
+				<h3>Pobierz naszą aplikacje</h3>
+				<p>Znajdziesz ją w AppStore i Google Play!</p>
+				<div class="app-logo">
+				<img src="play-store.png">
+				<img src="app-store.png">
+				
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="white.png">
+				<p>Naszym celem jest czerpanie przyjemności
+				i korzyści ze snekersów.</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Przydatne linki:</h3>
+				<ul>
+					<a href="index.html"><li>Strona główna</li></a>
+					<a href="modele.html"><li>Dostępne modele</li></a>
+					<a href="basket.html"><li>Koszyk</li></a>
+					<a href="formularz.html"><li>Twoje konto</li></a>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Nasze Sociale:</h3>
+				<ul>
+					<li><a href="https://www.facebook.com/" target="blank">Facebook</a></li>
+					<a href="https://www.instagram.com/" target="blank"><li>Instagram</li></a>
+					<a href="https://www.twitter.com/" target="blank"><li>Twitter</li></a>
+					<a href="https://www.youtube.com/" target="blank"><li>YouTube</li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	
+	<script>
+	
+	var LoginForm = document.getElementById("LoginForm");
+	var RegisterForm = document.getElementById("RegisterForm");
+	
+	
+	function register(){
+		RegisterForm.style.transform = "translateX(0px)";
+		LoginForm.style.transform = "translateX(0px)";
+		
+	}
+	function login(){
+		RegisterForm.style.transform = "translateX(300px)";
+		LoginForm.style.transform = "translateX(300px)";
+		
+	}
+	
+	
+	</script>
+</body>
+</html>
